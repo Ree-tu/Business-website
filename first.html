@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main{display: grid; grid-template-columns: 4cm auto auto 6cm;
+        grid-template-rows: 1cm 1cm; row-gap: 10px; column-gap: 10px;
+         border: 2px dashed rebeccapurple; padding: 10px;
+        background-color: salmon; }
+        .main div{border: 2px solid black; background-color: aqua; text-align: center;
+        align-content: center; }
+        .d1{grid-column-start: 1; grid-column-end: 4 ; grid-row: 1/4;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="d1">1</div>
+        <div class="d2">2</div>
+        <div class="d3">3</div>
+        <div class="d4">4</div>
+        <div class="d5">5</div>
+        <div class="d6">6</div>
+        <div class="d7">7</div>
+        <div class="d8">8</div>
+
+    </div>
+</body>
+</html>
